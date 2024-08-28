@@ -6,6 +6,8 @@ import {
   TouchableOpacity,
 } from "react-native";
 
+import Footer from './Footer';
+
 const Home = () => {
   return (
     <ScrollView>
@@ -80,6 +82,7 @@ const Home = () => {
             intimidation.
           </Text>
         </View>
+        <Footer /> {/* Render the Footer component */}
       </View>
     </ScrollView>
   );

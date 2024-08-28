@@ -2,6 +2,7 @@ import React from "react";
 import { View, Text, ScrollView, StyleSheet, TouchableOpacity, Image} from "react-native";
 import { useRouter } from "expo-router";
 import Sections from "./Sections"; // Import the Sections component
+import Footer from './Footer';
 
 import placeholderImage from './logo.png';
 import House from './house.png';
@@ -82,6 +83,7 @@ const App = () => {
 
         {/* Render the Sections component */}
         <Sections />
+        <Footer /> {/* Render the Footer component */}
       </ScrollView>
     </View>
   );
